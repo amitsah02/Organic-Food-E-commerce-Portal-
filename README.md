@@ -1,5 +1,5 @@
 🌿 Organic Food E-commerce Portal
-This is a frontend prototype for an Organic Food E-commerce Portal, developed as part of a project to promote healthy, eco-friendly shopping through an engaging user interface and chatbot integration.
+ This is a frontend prototype for an Organic Food E-commerce Portal, developed as part of a project to promote healthy, eco-friendly shopping through an engaging user interface and chatbot integration.
 
 📁 Project Structure
 Organic-Food-E-commerce-Portal-/
