@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5806/5806342.png">
+
+    <!--========== BOX ICONS ==========-->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <title>Tazza Organic Food</title>
+
+    <!--========== CSS Link hai==========-->
+    <!--Main1.css-->
+    <link rel="stylesheet" href="CSS/Main1.css">
+    <!--Main2.css-->
+    <link rel="stylesheet" href="CSS/Main2.css">
+
+    <!--ChatBot.css-->
+    <link rel="stylesheet" href="CSS/ChatBot.css">
+    <!--========= Jab user whatsapp par bat karna chahe tab whatsapp open hoga jiske liye cdn link aur style write kiya hu ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .whatsapp-icon {
+            position: fixed;
+            right: 1px;
+            bottom: 300px;
+            background-color: #25D366;
+            color: white;
+            padding: 15px;
+            border-radius: 10px 0 0 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            font-size: 24px;
+            z-index: 1000;
+            text-decoration: none;
+
+        }
+
+        .facebook-icon {
+            position: fixed;
+            right: 1px;
+            bottom: 238px;
+            background-color: #17A9FD;
+
+            color: white;
+            padding: 15px;
+            border-radius: 10px 0 0 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            font-size: 20px;
+            z-index: 1000;
+            text-decoration: none;
+        }
+
+        .youtube-icon {
+            position: fixed;
+            right: 1px;
+            bottom: 179px;
+            background-color: #FF0000;
+            color: white;
+            padding: 15px;
+            border-radius: 10px 0 0 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            font-size: 18px;
+            z-index: 1000;
+            text-decoration: none;
+        }
+
+        .whatsapp-icon:hover {
+            background-color: #128C7E;
+        }
+
+        .facebook-icon:hover {
+            background-color: #0165E1;
+        }
+
+        .youtube-icon:hover {
+            background-color: rgb(197, 16, 16);
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevron-up scrolltop__icon'></i>
+    </a>
+
+    <!--======= SOCIAL MEDIA ICONS IN RIGHT SIDE OF WEP APP =======-->
+    <!--=========== Whatspp Icon when user click on whatsapp icon the redirect to whtasapp page ===========-->
+    <a onclick="window.confirm('Oops! something went wrong. May whatsapp page not found.')" target="_blank"
+        class="whatsapp-icon">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <a onclick="window.confirm('Oops! something went wrong. May facebook page not found.')" class="facebook-icon">
+        <i class="fab fa-facebook"></i>
+    </a>
+    <a onclick="window.confirm('Oops! something went wrong. May youtube page not found.')" class="youtube-icon">
+        <i class="fab fa-youtube"></i>
+    </a>
+
+
+    <!--========== HEADER ==========-->
+    <div>
+       <marquee behavior="" direction=""><p>Fresh Vegetables &amp; Fruits are delivered to your doorstep every Wednesday &amp; Saturday</p></marquee> 
+    </div>
+    <header class="l-header" id="header">
+
+
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo nav__logo1">
+                <span class="rohit"><img class="logo-img" src="IMAGES/logo.png" alt="logo"></span></a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link nav__link1 active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link nav__link1">About</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link nav__link1">Services</a></li>
+                    <li class="nav__item"><a href="#fruits" class="nav__link nav__link1">Product</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link nav__link1">Contact us</a></li>
+                    <li class="nav__item"><a href="register.html" class="nav__link"
+                            style="background-color: #048654c2;padding: 8px;border: 6px solid #048654;">Register</a>
+    </li>
+                    <li class="nav__item"><i class="fa-regular fa-user"></i></li>
+                    <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--========== HOME ==========-->
+        <section class="home" id="home">
+            <!-- Slider Container -->
+            <div class="slider-container" style="top: 0;">
+                <div class="slider">
+                    <!-- Slides -->
+                    <div class="slide"><img src="IMAGES/Hero-Banner-1.jpg" alt="Slide 1"></div>
+                    <div class="slide"><img
+                            src="IMAGES/Hero-Banner-2.jpg"
+                            alt="Slide 2"></div>
+                    <div class="slide"><img
+                            src="https://img.freepik.com/premium-photo/organic-food-section-background_78899-9801.jpg"
+                            alt="Slide 3"></div>
+                    <div class="slide"><img src="https://grist.org/wp-content/uploads/2015/11/organic.jpg"
+                            alt="Slide 4"></div>
+                    <div class="slide"><img
+                            src="https://cdn.thefiscaltimes.com/sites/default/files/styles/article_hero_image/public/articles/09082012_organic_food_article.jpg?itok=38RbIC78"
+                            alt="Slide 5"></div>
+                    <div class="slide"><img
+                            src="https://ixtenso.com/media/story_section_image/8141/image-01-shopping-food-online-grocery-supermarkets-omnichannel-retail.jpg"
+                            alt="Slide 6"></div>
+                    <div class="slide"><img
+                            src="IMAGES/Hero-Banner-3.jpg"
+                            alt="Slide 7"></div>
+
+                </div>
+
+                <!-- Controls  https://media.giphy.com/media/AhgKVAaE1UhAlBAUDG/giphy.gif-->
+                <div class="controls">
+
+
+
+                    <button class="prev" style="background: none;"><span
+                            style="background-color: #000;border-radius: 100%;padding: 10px;border: 2px solid white;">&#10094;</span></button>
+                    <div>
+                        <h2 class="home__subtitle"
+                            style="text-shadow: 0 0 10px  #069C54, 0 0 20px #15aa62, 0 0 30px #0c6138; text-align: center;border-bottom-right-radius: 50px;border-left: 20px solid #069C54;color: black; padding-left: 50px;padding-right: 10px;padding-top: 10px; background: rgba(255, 255, 255, 0.651); background-size: cover;">
+                            Shop healthy, preservative tazza <br>and fresh
+                            fruits and <br> groceries of the week.
+                            <div>
+                                <a href="tel:+918580976323"><img style="height: 50px;width: 150px;"
+                                        src="https://goodwillhealthcare.com.au/service/Call-Now-GIF.gif" alt=""></a>
+
+
+                            </div>
+
+
+                        </h2>
+                    </div>
+                    <div style="align-items: center; width: 35%; 
+       justify-content: center;border-right: 20px solid #069C54;border-bottom-left-radius: 50px;
+       flex-direction: row; background-color: rgba(255, 255, 255, 0.502);padding: 10px;margin-bottom: 32px;">
+                        <div style="display: flex;align-items: center;justify-content: space-between;">
+                            <input type="text" id="searchBar" placeholder="Search (Fruits, Vegetable, Groceris, etc.)">
+
+                            <button style=" border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    " onclick="searchSection()"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                        <div>
+                            <h2 style="color: #048654;">Our Mission :</h2>
+                            <h3 style="color: black;">
+                                Our mission is simple to offer fresh, organic food that nourishes your body and
+                                supports a healthier world. </h3>
+                            <div style="text-align: left;margin-top: 5px;">
+                                <a href="#" class="button">Explore more <i class="fa-solid fa-right-to-bracket"></i></a>
+                                <a href="#" class="button">Buy online</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <button class="next" style="background: none;"><span
+                            style="background-color: #000;border-radius: 100%;padding: 10px;border: 2px solid white;">&#10095;</span></button>
+                </div>
+
+                <!-- Dot Navigation (Bubbles) -->
+                <div class="dots"></div>
+            </div>
+        </section>
+
+
+
+
+
+        <!--========== ABOUT ==========-->
+        <section class="about section bd-container" id="about"
+            style="background-image: url(https://www.pngall.com/wp-content/uploads/12/Lines-PNG-Free-Image.png);background-size: cover;padding: 20px;">
+            <div class="about__container  bd-grid">
+
+                <div class="about__data"
+                    style=" visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all, opacity 2s cubic-bezier(0.5, 0, 0, 1), transform 2s cubic-bezier(0.5, 0, 0, 1);">
+                    <span class="section-subtitle about__initial">About us</span>
+                    <h2 class="section-title about__initial">We provide online <br> organic food product like
+                        preservative
+                        fruits and groceries.</h2>
+                    <p class="about__description">We grow the best organic food product like
+                        preservative
+                        fruits and groceries.</p><br><br>
+                    <!-- buy now popup open when clicked on buy button-->
+                    <a href="#" class="button">Explore history <i class="fa-solid fa-right-to-bracket"></i></a>
+                    <div
+                        style=" display: none;
+            position: fixed;
+            top: 0;
+            left: 0; 
+            width: 100%;
+            height: 100%;
+            box-shadow: rgba(0, 0, 0, 0.638) 0px 5px 15px; /* Semi-transparent background */
+            z-index: 1000; /* Ensure it's on top of other content */
+            overflow: auto; /* Enable scrolling if needed */
+            justify-content: center;
+            align-items: center; border: 10px solid #069c537e;border-top-left-radius: .5rem;border-bottom-left-radius: .5rem;border-top-right-radius: .5rem;border-bottom-right-radius: .5rem;">
+
+                    </div>
+                    <!------------- ============closed popup ------------->
+
+
+                </div>
+
+
+
+
+                <!-- <div Class="shipping">
+                    <div>
+                        <div class="farm">
+                            <marquee behavior="alternate" scrollamounr="200" direction="right">
+                                <img src="https://images.unsplash.com/photo-1597916829826-02e5bb4a54e0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHx8"
+                                    alt="" height="550" class="imga">
+                                <img src="https://images.unsplash.com/photo-1529313780224-1a12b68bed16?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8"
+                                    alt="" height="700" class="imga">
+                                <img src="https://images.unsplash.com/photo-1621460248083-6271cc4437a8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHx8"
+                                    alt="" class="imga">
+                                <img src="https://images.unsplash.com/photo-1621460249485-4e4f92c9de5d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D"
+                                    alt="" height="700" class="imga">
+                                <img src="https://images.unsplash.com/photo-1558070510-504a0db43997?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8"
+                                    alt="" height="500" class="imga">
+                            </marquee>
+                        </div>
+                    </div>
+                </div>-->
+
+                <div class="about-slider-container"
+                    style="background: white; border-radius: 50px; border: 8px solid #048654;box-shadow: rgba(0, 0, 0, 0.638) 0px 5px 15px;padding-bottom: 8px;">
+                    <h1
+                        style=" background-color: #048654; color: white;font-size: 30px;align-items: center;justify-content: center;display: flex;box-shadow: rgba(0, 0, 0, 0.638) 0px 5px 15px;margin-left: 80px;margin-right: 80px;border-bottom-left-radius: 30%;border-bottom-right-radius: 30%;height: 20px;">
+                    </h1>
+                    <div class="about-slider">
+                        <div class="about-slide">
+                            <img src="https://images.unsplash.com/photo-1597916829826-02e5bb4a54e0?w=500&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHx8"
+                                alt="" height="550" class="imga">
+
+                        </div>
+                        <div class="about-slide">
+                            <img src="https://images.unsplash.com/photo-1529313780224-1a12b68bed16?w=500&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8"
+                                alt="" height="700" class="imga">
+                        </div>
+                        <div class="about-slide">
+                            <img src="https://images.unsplash.com/photo-1621460249485-4e4f92c9de5d?w=500&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D"
+                                alt="" height="700" class="imga">
+                        </div>
+
+                    </div>
+
+                    <h1
+                        style="color: #048654;font-size: 30px;align-items: center;justify-content: center;display: flex;box-shadow: rgba(0, 0, 0, 0.638) 0px 5px 15px;margin-left: 110px;margin-right: 110px;border-radius: 30%;">
+                        •••</h1>
+                </div>
+
+                <marquee behavior="alternate" direction="left" scrolldelay="120" onmouseover="this.stop()"
+                    onmouseout="this.start()"><i><span
+                            style="color: #2b4038; background-color: #048654;padding: 10px;border-radius: 20px;">
+                            Note : We provide the best organic food product like
+                            preservative
+                            fruits and groceries.
+                        </span></i></marquee>
+            </div>
+        </section>
+
+
+        <!--========== SERVICES ==========-->
+        <section class="services section bd-container" id="services" style="background-image: url();">
+            <span class="section-subtitle">Offering</span>
+            <u>
+                <h2 class="section-title">Our amazing services</h2>
+            </u>
+
+            <div class="services__container  bd-grid">
+
+                <div class="services__content">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1588/1588024.png"
+                        style="height: auto;max-width: 50%; border: 2px solid #069C54;padding-left: 10px;padding-top: 10px; padding-bottom: 10px; padding-right: 10px; border-radius: 100%; background-color: #069c5355;">
+                    <h3 class="services__title">Excellent organic items</h3>
+                    <p class="services__description">We offer our clients excellent quality services for many years,
+                        with the best and preservative
+                        fruits and groceries in the city.</p>
+                </div>
+
+                <div class="services__content">
+                    <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/organic-food-8637662-6951998.png?f=webp&w=256"
+                        style="height: auto;max-width: 50%; border: 2px solid #069C54;padding-left: 10px;padding-top: 10px; padding-bottom: 10px; padding-right: 10px; border-radius: 100%; background-color: #069c5355;">
+
+                    <h3 class="services__title">Fresh fruits & groceries</h3>
+                    <p class="services__description">We offer our clients excellent quality services for many years,
+                        with the best and organic fruits in the city.</p>
+                </div>
+
+                <div class="services__content">
+                    <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/247-services-1771202-1506890.png?f=webp&w=256"
+                        style="height: auto;max-width: 50%; border: 2px solid #069C54;padding-left: 10px;padding-top: 10px; padding-bottom: 10px; padding-right: 10px; border-radius: 100%; background-color: #069c5355;">
+                    <h3 class="services__title">24/7 Support</h3>
+                    <p class="services__description">We offer our clients excellent quality services for many years,
+                        with the best and preservative
+                        fruits and groceries in the city.</p>
+                </div>
+                <div class="services__content">
+                    <img src="https://cdn.iconscout.com/icon/free/png-512/free-fast-shipping-5267287-4396547.png?f=webp&w=256"
+                        style="height: auto;max-width: 50%; border: 2px solid #069C54;padding-left: 10px;padding-top: 10px; padding-bottom: 10px; padding-right: 10px; border-radius: 100%; background-color: #069c5355;">
+                    <h3 class="services__title">Fast shipping</h3>
+                    <p class="services__description">We offer our clients excellent quality services for many years,
+                        with the best and organic fruits in the city.</p>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!--========== Fruits MENU ==========-->
+        <section class="menu section bd-container" id="fruits">
+            <span class="section-subtitle">Cart Services</span>
+            <u>
+                <h2 class="section-title">List of our product</h2>
+            </u>
+            <h2 class="section-title"
+                style="background-color: #0486545a;font-family: monospace; padding-left: 15px;padding-right: 10px;padding-bottom: 3px; border-radius: 50px;">
+                Organic Fruits</h2>
+
+            <div class="menu__container bd-grid">
+                <div class="menu__content">
+                    <img src="https://purepng.com/public/uploads/large/purepng.com-orange-orangesorangefruitbitter-orangeorangesclip-art-1701527336951ldrwe.png"
+                        alt="" class="menu__img">
+                    <h3 class="menu__name">Orange</h3>
+                    <span class="menu__detail">Fresh and Juicies</span>
+                    <span class="menu__preci">1 kg ₹ 52.00 /-</span>
+                    <span class="menu__detail"> <i class="fa-solid fa-check"
+                            style="border: 1px solid #048654;border-radius: 10%;background-color: #069C54;color: whitesmoke;"></i>
+                        1 min ago</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+
+                <div class="menu__content">
+                    <img src="https://www.pngmart.com/files/22/Lychee-PNG-Isolated-Pic.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Lychee</h3>
+                    <span class="menu__detail">Sweety and Tazzi</span>
+                    <span class="menu__preci">3kg ₹ 120.00 /-</span>
+                    <span class="menu__detail"><i class="fa-solid fa-check"
+                            style="border: 1px solid #048654;border-radius: 10%;background-color: #069C54;color: whitesmoke;"></i>
+                        just now</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+
+                <div class="menu__content">
+                    <img src="https://www.pngall.com/wp-content/uploads/11/Apple.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Apples </h3>
+                    <span class="menu__detail">Rassilla Sweety</span>
+                    <span class="menu__preci">1 kg ₹ 90.50 /-</span>
+                    <span class="menu__detail"><i class="fa-solid fa-check"
+                            style="border: 1px solid #048654;border-radius: 10%;background-color: #069C54;color: whitesmoke;"></i>
+                        1 min ago</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+            </div>
+
+            <div class="menu__container bd-grid">
+                <div class="menu__content">
+                    <img src="https://www.freepnglogos.com/uploads/cherry-png/cherry-harvest-schedule-brecknock-orchard-mohnton-34.png"
+                        alt="" class="menu__img">
+                    <h3 class="menu__name">Cherry</h3>
+                    <span class="menu__detail">Red and Juicies</span>
+                    <span class="menu__preci">1 kg ₹ 52.00 /-</span>
+                    <span class="menu__detail"><i class="fa-solid fa-check"
+                            style="border: 1px solid #048654;border-radius: 10%;background-color: #069C54;color: whitesmoke;"></i>
+                        just now</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+
+                <div class="menu__content">
+                    <img src="https://pnghq.com/wp-content/uploads/mango-png-image-free-download-98765-1536x1270.png"
+                        alt="" class="menu__img">
+                    <h3 class="menu__name">Mango</h3>
+                    <span class="menu__detail">Rassilla and Tazzi</span>
+                    <span class="menu__preci">2kg ₹ 110.00 /-</span>
+                    <span class="menu__detail"><i class="fa-solid fa-check"
+                            style="border: 1px solid #048654;border-radius: 10%;background-color: #069C54;color: whitesmoke;"></i>
+                        just now</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+
+                <div class="menu__content">
+                    <img src="https://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Fruit-PNG/Large_Bananas_PNG_Clipart.png?m=1434276917"
+                        alt="" class="menu__img">
+                    <h3 class="menu__name">Banana </h3>
+                    <span class="menu__detail">Healthy and Fruitie</span>
+                    <span class="menu__preci">₹9.50 /-</span>
+                    <span class="menu__detail"><i class="fa-solid fa-check"
+                            style="border: 1px solid #048654;border-radius: 10%;background-color: #069C54;color: whitesmoke;"></i>
+                        2 days ago</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+            </div>
+
+            <div class="menu__container bd-grid">
+                <div class="menu__content">
+                    <img src="https://www.pngarts.com/files/5/Guava-PNG-Picture.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Guava</h3>
+                    <span class="menu__detail">Fresh and sweets</span>
+                    <span class="menu__preci">1 kg ₹ 30.00 /-</span>
+                    <span class="menu__detail"><i class="fa-solid fa-check"
+                            style="border: 1px solid #048654;border-radius: 10%;background-color: #069C54;color: whitesmoke;"></i>
+                        1 min ago</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+
+                <div class="menu__content">
+                    <img src="https://www.pngmart.com/files/22/Lychee-PNG-Isolated-Pic.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Lychee</h3>
+                    <span class="menu__detail">Sweety and Tazzi</span>
+                    <span class="menu__preci">3kg ₹ 120.00 /-</span>
+                    <span class="menu__detail"><i class="fa-solid fa-check"
+                            style="border: 1px solid #048654;border-radius: 10%;background-color: #069C54;color: whitesmoke;"></i>
+                        21 min ago</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+
+                <div class="menu__content">
+                    <img src="https://graficsea.com/wp-content/uploads/2022/01/Anar-Pomegranate-.png" alt=""
+                        class="menu__img">
+                    <h3 class="menu__name">Pomegranate </h3>
+                    <span class="menu__detail">Red and Juicies</span>
+                    <span class="menu__preci">1 kg ₹ 90.50 /-</span>
+                    <span class="menu__detail"><i class="fa-solid fa-check"
+                            style="border: 1px solid #048654;border-radius: 10%;background-color: #069C54;color: whitesmoke;"></i>
+                        just now</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+
+
+            </div>
+             <br><br>
+            <div class="contact__button" style="align-items: center;justify-content: center;display: flex;">
+                <a href="#" class="button">More Items <i class="fa-solid fa-right-to-bracket"></i></a>
+            </div>
+        </section>
+
+        <!--=========Vegetable MENU ==========-->
+        <section class="menu section bd-container" id="vegetable">
+
+            <h2 class="section-title"
+                style="background-color: #0486545a;font-family: monospace; padding-left: 15px;padding-right: 10px;padding-bottom: 3px; border-radius: 50px;">
+                Organic Vegetable</h2>
+
+            <div class="menu__container bd-grid">
+                <div class="menu__content">
+                    <img src="https://w7.pngwing.com/pngs/600/302/png-transparent-baingan-bharta-vegetarian-cuisine-eggplant-vegetable-cauliflower-natural-foods-food-vegetables.png"
+                        alt="" class="menu__img">
+                    <h3 class="menu__name">Baigan-Bharta</h3>
+                    <span class="menu__detail">Fresh Vegies</span>
+                    <span class="menu__preci">1 kg ₹ 22.00 /-</span>
+                    <span class="menu__detail"><i class="fa-solid fa-check"
+                            style="border: 1px solid #048654;border-radius: 10%;background-color: #069C54;color: whitesmoke;"></i>
+                        just now</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+
+                <div class="menu__content">
+                    <img src="http://clipart-library.com/image_gallery2/Potato-PNG-Picture.png" alt=""
+                        class="menu__img">
+                    <h3 class="menu__name">Potato (Aaloo)</h3>
+                    <span class="menu__detail">Organic and Tazzi</span>
+                    <span class="menu__preci">3kg ₹ 120.00 /-</span>
+                    <span class="menu__detail"><i class="fa-solid fa-check"
+                            style="border: 1px solid #048654;border-radius: 10%;background-color: #069C54;color: whitesmoke;"></i>
+                        1 mon ago</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+
+                <div class="menu__content">
+                    <img src="https://freepngimg.com/thumb/categories/2972.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Cauliflower </h3>
+                    <span class="menu__detail">Pure Vegies</span>
+                    <span class="menu__preci">1 kg ₹ 90.50 /-</span>
+                    <span class="menu__detail"><i class="fa-solid fa-check"
+                            style="border: 1px solid #048654;border-radius: 10%;background-color: #069C54;color: whitesmoke;"></i>
+                        5 days ago</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+            </div>
+
+            <div class="menu__container bd-grid">
+                <div class="menu__content">
+                    <img src="http://www.pngall.com/wp-content/uploads/2016/04/Tomato-Download-PNG.png" alt=""
+                        class="menu__img">
+                    <h3 class="menu__name">Tamato</h3>
+                    <span class="menu__detail">Red and Sour</span>
+                    <span class="menu__preci">1 kg ₹ 52.00 /-</span>
+                    <span class="menu__detail"><i class="fa-solid fa-check"
+                            style="border: 1px solid #048654;border-radius: 10%;background-color: #069C54;color: whitesmoke;"></i>
+                        just now</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+
+                <div class="menu__content">
+                    <img src="https://freepngimg.com/thumb/pepper/154037-pepper-green-bell-free-clipart-hq.png" alt=""
+                        class="menu__img">
+                    <h3 class="menu__name">Shimla Mirch</h3>
+                    <span class="menu__detail">Organic and Tazzi</span>
+                    <span class="menu__preci">2kg ₹ 110.00 /-</span>
+                    <span class="menu__detail"><i class="fa-solid fa-check"
+                            style="border: 1px solid #048654;border-radius: 10%;background-color: #069C54;color: whitesmoke;"></i>
+                        3 min ago</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+
+                <div class="menu__content">
+                    <img src="https://cdn.pixabay.com/photo/2020/06/13/13/56/okra-5294293_1280.png" alt=""
+                        class="menu__img">
+                    <h3 class="menu__name">Lady-Finger </h3>
+                    <span class="menu__detail">Healthy and Natural</span>
+                    <span class="menu__preci">1kg ₹9.50 /-</span>
+                    <span class="menu__detail"><i class="fa-solid fa-check"
+                            style="border: 1px solid #048654;border-radius: 10%;background-color: #069C54;color: whitesmoke;"></i>
+                        1 day ago</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+            </div>
+
+            <div class="menu__container bd-grid">
+                <div class="menu__content">
+                    <img src="https://pluspng.com/img-png/onion-png-onion-png-image-788.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Onion</h3>
+                    <span class="menu__detail">Fresh and Organic</span>
+                    <span class="menu__preci">1 kg ₹ 30.00 /-</span>
+                    <span class="menu__detail"><i class="fa-solid fa-check"
+                            style="border: 1px solid #048654;border-radius: 10%;background-color: #069C54;color: whitesmoke;"></i>
+                        just now</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+
+                <div class="menu__content">
+                    <img src="https://pluspng.com/img-png/vegetable-png-cabbage-carrot-png-image-1458.png" alt=""
+                        class="menu__img">
+                    <h3 class="menu__name">Cabbage</h3>
+                    <span class="menu__detail">Greeny and Tazzi</span>
+                    <span class="menu__preci">3kg ₹ 120.00 /-</span>
+                    <span class="menu__detail"><i class="fa-solid fa-check"
+                            style="border: 1px solid #048654;border-radius: 10%;background-color: #069C54;color: whitesmoke;"></i>
+                        30 days ago</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+
+                <div class="menu__content">
+                    <img src="https://www.pngarts.com/files/4/Carrot-PNG-Download-Image.png" alt="" class="menu__img">
+                    <h3 class="menu__name">carrot </h3>
+                    <span class="menu__detail">Organic salad</span>
+                    <span class="menu__preci">1 kg ₹ 90.50 /-</span>
+                    <span class="menu__detail"><i class="fa-solid fa-check"
+                            style="border: 1px solid #048654;border-radius: 10%;background-color: #069C54;color: whitesmoke;"></i>
+                        1 min ago</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+
+
+            </div> <br><br>
+            <div class="contact__button" style="align-items: center;justify-content: center;display: flex;">
+                <a href="#" class="button">More Items <i class="fa-solid fa-right-to-bracket"></i></a>
+            </div>
+
+        </section>
+
+        <!--==========Massala MENU ==========-->
+        <section class="menu section bd-container" id="groceries">
+
+            <h2 class="section-title"
+                style="background-color: #0486545a;font-family: monospace; padding-left: 15px;padding-right: 10px;padding-bottom: 3px; border-radius: 50px;">
+                Organic Massala</h2>
+
+            <div class="menu__container bd-grid">
+                <div class="menu__content">
+                    <img src="https://pngimg.com/uploads/black_pepper/black_pepper_PNG16.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Black-Pepper</h3>
+                    <span class="menu__detail">Organic And Dry</span>
+                    <span class="menu__preci">1 kg ₹ 520.00 /-</span>
+                    <span class="menu__detail"><i class="fa-solid fa-check"
+                            style="border: 1px solid #048654;border-radius: 10%;background-color: #069C54;color: whitesmoke;"></i>
+                        1 min ago</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+
+                <div class="menu__content">
+                    <img src="https://www.pngkey.com/png/full/100-1006934_red-chili-powder-chilli-powder-bowl-png.png"
+                        alt="" class="menu__img">
+                    <h3 class="menu__name">Chilli</h3>
+                    <span class="menu__detail">Dried and Red</span>
+                    <span class="menu__preci">1kg ₹ 120.00 /-</span>
+                    <span class="menu__detail"><i class="fa-solid fa-check"
+                            style="border: 1px solid #048654;border-radius: 10%;background-color: #069C54;color: whitesmoke;"></i>
+                        just now</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+
+                <div class="menu__content">
+                    <img src="https://www.pngmart.com/files/22/Coriander-PNG-Isolated-Photo.png" alt=""
+                        class="menu__img">
+                    <h3 class="menu__name">Coriander </h3>
+                    <span class="menu__detail">Mahak-Massala</span>
+                    <span class="menu__preci">1 kg ₹ 90.50 /-</span>
+                    <span class="menu__detail"><i class="fa-solid fa-check"
+                            style="border: 1px solid #048654;border-radius: 10%;background-color: #069C54;color: whitesmoke;"></i>
+                        1 min ago</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+            </div>
+
+            <div class="menu__container bd-grid">
+                <div class="menu__content">
+                    <img src="https://cdn.pixabay.com/photo/2022/12/26/10/01/turmeric-powder-7678634_1280.png" alt=""
+                        class="menu__img">
+                    <h3 class="menu__name">Turmeric</h3>
+                    <span class="menu__detail">Dried-Powder</span>
+                    <span class="menu__preci">1 kg ₹ 102.00 /-</span>
+                    <span class="menu__detail"><i class="fa-solid fa-check"
+                            style="border: 1px solid #048654;border-radius: 10%;background-color: #069C54;color: whitesmoke;"></i>
+                        25 days ago</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+
+                <div class="menu__content">
+                    <img src="https://naubaharmasale.com/wp-content/uploads/2022/06/Jeera.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Jeera</h3>
+                    <span class="menu__detail">Dried-Powder</span>
+                    <span class="menu__preci">2kg ₹ 110.00 /-</span>
+                    <span class="menu__detail"><i class="fa-solid fa-check"
+                            style="border: 1px solid #048654;border-radius: 10%;background-color: #069C54;color: whitesmoke;"></i>
+                        1 min ago</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+
+                <div class="menu__content">
+                    <img src="https://telankhana.in/wp-content/uploads/2021/05/Masalas.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Mixture-Massaala</h3>
+                    <span class="menu__detail">Healthy and Dried</span>
+                    <span class="menu__preci">5kg ₹900.50 /-</span>
+                    <span class="menu__detail"><i class="fa-solid fa-check"
+                            style="border: 1px solid #048654;border-radius: 10%;background-color: #069C54;color: whitesmoke;"></i>
+                        50 min ago</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+            </div>
+
+            <div class="menu__container bd-grid">
+                <div class="menu__content">
+                    <img src="https://www.freeiconspng.com/uploads/spice-products-png-5.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Vegies-Massala</h3>
+                    <span class="menu__detail">Fresh and sweets</span>
+                    <span class="menu__preci">1 kg ₹ 30.00 /-</span>
+                    <span class="menu__detail"><i class="fa-solid fa-check"
+                            style="border: 1px solid #048654;border-radius: 10%;background-color: #069C54;color: whitesmoke;"></i>
+                        just now</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+
+                <div class="menu__content">
+                    <img src="https://clipart-library.com/image_gallery2/Garlic-PNG-Image.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Garlic</h3>
+                    <span class="menu__detail">Tikhi and Tazzi</span>
+                    <span class="menu__preci">3kg ₹ 120.00 /-</span> <span class="menu__detail"><i
+                            class="fa-solid fa-check"
+                            style="border: 1px solid #048654;border-radius: 10%;background-color: #069C54;color: whitesmoke;"></i>
+                        1 min ago</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+
+                <div class="menu__content">
+                    <img src="https://www.alamanaherbs.com/images/ph99.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Organic-Massala</h3>
+                    <span class="menu__detail">All Mixed </span>
+                    <span class="menu__preci">1 kg ₹ 90.50 /-</span>
+                    <span class="menu__detail"><i class="fa-solid fa-check"
+                            style="border: 1px solid #048654;border-radius: 10%;background-color: #069C54;color: whitesmoke;"></i>
+                        1 day ago</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+
+
+            </div> <br><br>
+            <div class="contact__button" style="align-items: center;justify-content: center;display: flex;">
+                <a href="#" class="button">More Items <i class="fa-solid fa-right-to-bracket"></i> </a>
+            </div>
+        </section>
+
+
+
+
+
+
+        <!--===== APP =======-->
+<section class="app section bd-container" id="app" style="background: linear-gradient(135deg, #364f3d 0%, #5ad0c2 50%, #d8b8b8 100%);">
+            <div class="app__container bd-grid"
+                style="background:url('https://www.pngplay.com/wp-content/uploads/6/Mobile-Application-Icon-Transparent-PNG.png') no-repeat center ; border-left: 2px solid #048654;border-right:2px solid #048654;border-top-left-radius: 50%;border-bottom-right-radius: 50%;">
+                <div class="app__data" style="background:linear-gradient(45deg, #04865467, #32d98817);padding: 30px; color: white;border-bottom: 2px solid #048654;border-bottom-left-radius: 50%;">
+                    <span class="section-subtitle app__initial" style="background-color: white;text-align: center;">Mobile App</span>
+                    <u>
+                        <h2 class="section-title app__initial">App is available</h2>
+                    </u>
+                    <p class="app__description"
+                        style="background-color: #048654e0;padding: 30px; border-radius: 50px;margin-left: 5px;padding-top: 10px;">
+                        Find our application and download it, you can make reservations, organic
+                        products
+                        orders, see your deliveries on the way and much more.</p>
+                    <div style=" background: #048654c7;margin-left: 10px;margin-right: 10px; border-radius: 100%;">
+                        <img src="https://www.pngarts.com/files/8/Mobile-App-PNG-Image-Transparent-Background.png"
+                            alt="">
+                    </div>
+                    <div class="app__stores">
+                        <br><br><br><br>
+                        <a href="#"><img
+                                src="https://constant.myntassets.com/web/assets/img/80cc455a-92d2-4b5c-a038-7da0d92af33f1539674178924-google_play.png"
+                                alt="" class="app__store"></a>
+                        <a href="#"><img
+                                src="https://constant.myntassets.com/web/assets/img/bc5e11ad-0250-420a-ac71-115a57ca35d51539674178941-apple_store.png"
+                                alt="" class="app__store"></a>
+                    </div>
+                </div>
+
+                <img src="assets/img/movil-app.png" alt="" class="app__img">
+            </div>
+        </section>
+
+
+        <!--========== CONTACT US ==========-->
+        <style>
+            .modal {
+                display: none;
+                position: fixed;
+                z-index: 1;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.5);
+                overflow: auto;
+            }
+
+            .modal-content {
+                background-color: #fefefe;
+                margin: 15% auto;
+                padding: 20px;
+                border: 1px solid #888;
+                width: 80%;
+                border-radius: 5px;
+            }
+
+            .close {
+                color: #aaaaaa;
+                float: right;
+                font-size: 28px;
+                font-weight: bold;
+            }
+
+            .close:hover,
+            .close:focus {
+                color: #000;
+                text-decoration: none;
+                cursor: pointer;
+            }
+
+            button {
+                background-color: #4caf50;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: #45a049;
+            }
+
+            input[type="text"],
+            input[type="email"],
+            input[type="tel"],
+            textarea {
+                width: 100%;
+                padding: 10px;
+                margin: 5px 0;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+
+            textarea {
+                height: 100px;
+            }
+
+            form {
+                margin-top: 20px;
+            }
+        </style>
+
+        <section class="contact section bd-container" id="contact">
+            <div class="contact__container bd-grid">
+                <div class="contact__data">
+                    <span class="section-subtitle contact__initial">Let's talk</span>
+                    <u>
+                        <h2 class="section-title contact__initial">Contact us</h2>
+                    </u>
+                    <p class="contact__description"> If you want to order our organic products then call or call us on
+                        our given contact details,We are providing organic Foods with our 24/7 chat service.</p>
+                </div>
+
+                <button id="contactButtons" style="padding: 0.8rem;background-color: #069C54;border: none;text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                border-radius: 5px;                
+                color: white;font-family: sans-serif;
+                ">Send Your Message</button>
+                  <div class="loading" id="loading" style="display:none;"></div>
+
+                <div id="contactModals" class="modal" style="background-color: #0000005c">
+                    <div class="modal-content">
+                        <span class="close"
+                            style="background-color: #0000005c;padding-right: 0.5rem;padding-left: 0.5rem;border-radius: 100%;color: black;"
+                            id="closeButton2">&times;</span>
+                        <u>
+                            <h2>Get In Touch</h2>
+                        </u>
+                        <form id="contactForms" action="https://api.web3forms.com/submit" method="POST">
+
+                            <input type="hidden" name="access_key" value="7dcb5f22-f7a7-4045-b039-5e2af488e613">
+                            <label for="name" style="color: #048654;">Name :</label>
+                            <input type="text" name="name" placeholder="👨‍💼 Your Name" id="name" required>
+                            <label for="email" style="color: #048654;">Email-Id :</label>
+                            <input type="email" name="email" placeholder="📧 Enter Your Email-ID" id="email"
+                                name="email" required>
+                            <label for="phone" style="color: #048654;">Mobile No :</label>
+                            <input type="tel" id="mobile" name="mobile" maxlength="10" pattern="[0-9]{10}" placeholder="📱Enter mobile number" required>
+                            <label for="message">Message:</label>
+                            <textarea id="message" type="text" name="message"
+                                placeholder="✍️ Please! write your message and click on submit button.."
+                                required></textarea>
+                            <button type="submit"
+                                onclick="window.confirm('📝 Note: Hi there! Would you like to send the message you wrote in the message box to the owner of this portal? If yes then press the 🆗 button.')">Submit</button><br><br>
+                                             <button id="contactButtons"  border-radius: 5px; 
+                                             <div class="loading" id="loading" style="display:none ;"></div> color: white; ...">Send Your Message</button>           <marquee behavior="alternate" direction="right" style="color: #048654;"><span>Note: The
+                                    reply to your message will be sent to your mobile or email immediately. Please wait
+                                    for our reply.</span></marquee>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Chatbot Icon -->
+                <div class="chat-icon" id="chat-icon">
+                    <img src="https://www.sapphireinfocom.com/images/robot1.gif" alt="Chat Icon">
+                </div>
+
+            
+                     <!-- Chatbot Popup -->
+
+              <div class="chat-popup" id="chat-popup">
+                  <div class="chat-header">
+                      <img src="https://www.sapphireinfocom.com/images/robot1.gif"
+                          style="height: 50px;border: 2px solid #048654;border-radius: 100%;padding: 5px;width: 50px;background-color: #048654;"
+                          alt="Chat Icon">
+                        <span style="color: wheat;font-size: 12px;">online</span>
+                        <img class="minimize" id="minimize-btn" title="minimize"
+                            src="https://chatbot.in1.nopaperforms.com/static/backend/img/minimize.png" alt="minimize"
+                            style="height: 30px;width: 40px;cursor: pointer;">
+                        <img class="refresh" id="refresh-btn"
+                            src="https://chatbot.in1.nopaperforms.com/static/backend/img/refresh.png" alt="refresh"
+                            title="refresh" style="height: 20px;width: 20px;margin-bottom: 4px;cursor: pointer;">
+                    </div>
+                    <div class="chat-body" id="chat-body">
+                        <div class="message bot-message">
+                            <span>Hi, how can I assist you today?</span>
+                            <small class="time" id="chat-time">12:00 PM</small>
+                        </div>
+                    </div>
+                     <div class="loading" id="loading-chatbot">
+                      <img src="https://www.kurzvmp.cz/wp-content/themes/itvkostce/images/loading.gif"
+                          alt="Loading...">
+                    </div>
+                    <div class="chat-input">
+
+                        <input type="text" id="user-input" placeholder="Type a message...">
+                        <img id="send-btn" src="https://chatcdn.npfs.co/static/backend/img/chatbots/send_btn.png"
+                            alt="send/amit-backend" title="Send-Message"
+                            style="height: 40px;width: 40px;margin-top: 2px;margin-left: 10px;cursor: pointer;border-radius: 50%;border-radius: 10px;border: 3px solid #e1ffc7;background-color: greenyellow;">
+                        <button id="mic-btn" title="voice-chat">🎙️</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section bd-container">
+        <hr><br>
+        <div class="footer__container bd-grid">
+            <div class="footer__content">
+                <a href="#" class="nav__logo" style="
+                padding-right: 15px;padding-bottom: 8px;">
+                    <span><img class="logo-img" style=" background-color: #069c5376;
+                        
+                        padding-left: 15px;
+                        padding-right: 15px;
+                        padding-bottom: 3px;
+                        padding-top: 40px;
+                        height: 90px;
+                        width: 100px;
+                        border-radius: 50px;
+                        border-bottom: 2px solid #069c53;" src="IMAGES/logo.png" alt="logo"></span></a><br><br>
+                <span class="footer__description">An ISO 9001 : 2024 Goverment Certified.</span>
+                <div>
+                    <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-youtube'></i></a>
+                </div>
+            </div>
+
+            <div class="footer__content">
+                <u></u>
+                <h3 class="footer__title">Services</h3>
+                <ul>
+                    <li><a href="#" class="footer__link">Delivery</a></li>
+                    <li><a href="#" class="footer__link">Pricing</a></li>
+                    <li><a href="#" class="footer__link">Organic Product</a></li>
+                    <li><a href="#" class="footer__link">Reserve your spot</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Information</h3>
+                <ul>
+                    <li><a href="#" class="footer__link">Event</a></li>
+                    <li><a href="#" class="footer__link">Contact us</a></li>
+                    <li><a href="#" class="footer__link">Privacy policy</a></li>
+                    <li><a href="#" class="footer__link">Terms of services</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Adress</h3>
+                <ul>
+                    <li>Organic Food Industries Pvt. Ltd.</li>
+                    <li>Bhilai Nagar</li>
+                    <li>Bhilai-490023 Chhattisgarh (INDIA)</li>
+                    <li>Phone : +91 9876543210</li>
+                    <li>Email-id : 6602977@rungta.org</li>
+                    <li>Website : www.tazzaOrganic.org</li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <hr>
+
+    </footer>
+    <div style="background-color: #048654;">
+        <p class="footer__copy" style="color: whitesmoke;background-color: #0486545a;  padding-left: 15px;padding-right: 10px;padding-bottom: 10px;margin-left: 5px;padding-top: 10px;">&#169; 2024 
+                
+            Tazza Organic Industries Pvt. Ltd. <br> All right reserved.</p>
+    </div>
+
+
+
+    <!--========== SCROLL REVEAL ==========--> 
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <!--========== MAIN JS ==========-->
+    <script src="JAVASCRIPT/Main.js"></script>
+
+    <!--======= CONTACT POPUP OPEN HOGA JAB CONTACT BUTTON CLICK HOGA ========-->
+    <script src="JAVASCRIPT/ContactPopup.js"></script>
+
+    <!--======== CHATBOT JS =========-->
+    <script src="JAVASCRIPT/ChatBot.js"></script>
+
+</body>
+</html>
